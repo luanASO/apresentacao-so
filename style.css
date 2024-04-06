@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+header.header {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-container {
+    text-align: center;
+}
+
+
+header .header-container h1 {
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+header .header-container h2 {
+    font-weight: 400;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+header .header-container a.button {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+header .header-container a.button:hover {
+    background-color: white;
+    border: 4px solid black;
+    color: black;
+    transition: background .5s;
+
+}
+
+header .header-container .download {
+    margin: 10%;
+}
