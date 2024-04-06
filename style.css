@@ -31,6 +31,14 @@ header .header-container h2 {
     font-size: 1.2rem;
 }
 
+header .header-container p{
+    margin-bottom: 10%;
+}
+
+header .header-container p span{
+    font-weight: bold;
+}
+
 header .header-container a.button {
     text-decoration: none;
     color: white;
